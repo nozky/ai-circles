@@ -2,7 +2,7 @@
 
 There is no other way to learn but code it yourself and learn from it.
 
-### Using:
+### On this exercise:
 - Pure Vanilla JavaScript
 - Modular Component
 - Export / Import
