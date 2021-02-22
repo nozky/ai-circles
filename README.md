@@ -13,7 +13,7 @@ There is no other way to learn but code it yourself and learn from it.
 ---
 ## Links
 
-GH repo - []()
+GH repo - [https://github.com/nozky/ai-circles](https://github.com/nozky/ai-circles)
 
 Live Demo (heruko) - []()
 
