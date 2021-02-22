@@ -22,5 +22,3 @@ Live Demo - [https://nozky.github.io/ai-circles/](https://nozky.github.io/ai-cir
 ---
 ## Author:
 Norvillie Villaruel - SAIT WEB DEVELOPMENT 2021
-
-> note: index.php is just to trick HEROKU to recognize this app for being a backend app even is just considered a static page.
