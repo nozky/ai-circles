@@ -14,7 +14,6 @@ const randomColor = document.querySelector('#random-color');
 
 let circles = [];
 
-
 // declare variables
 const canvasWrapper = document.querySelector('.canvas-wrapper');
 const canvas = document.querySelector('#canvas');
@@ -42,9 +41,10 @@ const init = ()=>{
     let radius = Math.floor(Math.random() * parseInt(maxRadius.value) + 1);
     let color = ranColor(randomColor.checked);
 
+    // create random direction using mod 'add/even'
     let speed = parseInt(velocity.value);
-    speed = (Math.floor(Math.random() * 10)+1) % 2 ? --speed : ++speed; 
-  
+    speed = Math.floor(Math.random() * 10) % 2 === 0 ? -speed : speed; 
+
     // create array of objects
     let newCircle = new Circle(xPos,yPos,radius,color,speed,canvas)
     circles.push(newCircle);
@@ -80,7 +80,7 @@ const animate = ()=>{
 // random color
 const ranColor = (isEnable)=>{
   if (isEnable){
-    const colors=['red','blue','green','white','pink','gold','orange','yellow','rebeccapurple'];
+    const colors=['red','blue','green','white','pink','gold','orange','yellow','rebeccapurple','marron','coral','lime','Fuchsia','Cyan','Azure'];
     let colorIndex = Math.floor(Math.random() * colors.length);
     return colors[colorIndex];
   }else{
