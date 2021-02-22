@@ -1,3 +1,4 @@
+
 import { Circle } from "../module/Circle.mjs";
 
 const start = document.querySelector('#start');

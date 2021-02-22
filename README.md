@@ -15,7 +15,7 @@ There is no other way to learn but code it yourself and learn from it.
 
 GH repo - [https://github.com/nozky/ai-circles](https://github.com/nozky/ai-circles)
 
-Live Demo (heruko) - []()
+Live Demo - [https://nozky.github.io/ai-circles/](https://nozky.github.io/ai-circles/)
 
 
 
