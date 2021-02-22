@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AI circle</title>
+  <link rel="stylesheet" href="./css/style.css">
+  <script src="./js/app.mjs" type="module"></script>
+</head>
+
+<body>
+  <header>
+    <div>
+      <h1>Ai Circle</h1>
+      <button id="start">Let's go!</button>
+      <button id="stop">Stop</button>
+    </div>
+
+    <div>
+      <label for="circle-count">Number Of Circles</label>
+      <input id="circles-count" type="text" value="20">
+    </div>
+
+    <div>
+      <label for="speed">Velocity</label>
+      <input id="speed" type="text" value="2">
+    </div>
+
+    <div>
+      <label for="max-radius">Max Radius</label>
+      <input id="max-radius" type="text" value="10">
+    </div>
+
+    <div>
+      <label for="circle-color">Circle color</label>
+      <input id="circle-color" type="text" value="white">
+    </div>
+
+    <div>
+      <label for="background-color">Background Color</label>
+      <input id="background-color" type="text" value="black">
+    </div>
+
+    <div>
+      <label for="random-color">Enable Random Color</label>
+      <input type="checkbox" id="random-color">
+    </div>
+
+    <div>
+      <label for="interaction">Enable surrounding awareness</label>
+      <input type="checkbox" id="interaction">
+    </div>
+
+  </header>
+
+  <!-- canvas wrapper -->
+  <p style="color: red; font-size:large; padding: 0 2rem";> Warning! Beware that exaggeration of Number of Circle Count might cause your browser/computer to freeze!</p>
+  <div class="canvas-wrapper">
+    <!-- canvas -->
+    <canvas id="canvas"></canvas>
+  </div>
+
+  <h3>Array of objects</h3>
+  <p>With a Class object to create an object but with unique properties.</p>
+  <p><a href="#">Github link - Source Code</a></p>
+
+  <footer>
+    <p>Norvillie Villaruel &copy; 2021 SAIT Web Development</p>
+  </footer>
+</body>
+
+</html>
